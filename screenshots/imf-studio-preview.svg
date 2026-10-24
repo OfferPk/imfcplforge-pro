@@ -1,0 +1,148 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 750" width="1200" height="750">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0b0f19" />
+      <stop offset="100%" stop-color="#111827" />
+    </linearGradient>
+    <linearGradient id="cardGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#1e293b" />
+      <stop offset="100%" stop-color="#0f172a" />
+    </linearGradient>
+    <linearGradient id="goldGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#eab308" />
+      <stop offset="100%" stop-color="#f59e0b" />
+    </linearGradient>
+    <linearGradient id="blueGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#3b82f6" />
+      <stop offset="100%" stop-color="#60a5fa" />
+    </linearGradient>
+    <linearGradient id="greenGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#10b981" />
+      <stop offset="100%" stop-color="#34d399" />
+    </linearGradient>
+    <filter id="shadow" x="-5%" y="-5%" width="110%" height="110%">
+      <feDropShadow dx="0" dy="8" stdDeviation="12" flood-color="#000" flood-opacity="0.5"/>
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1200" height="750" fill="url(#bgGrad)" />
+
+  <!-- Top Navigation Bar -->
+  <rect x="0" y="0" width="1200" height="64" fill="#0f172a" stroke="#334155" stroke-width="1" />
+  <circle cx="36" cy="32" r="14" fill="url(#goldGrad)" />
+  <text x="31" y="38" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="16" font-weight="900" fill="#000">I</text>
+  <text x="64" y="38" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="20" font-weight="800" fill="#f8fafc">IMFCPLForge Pro</text>
+  <rect x="240" y="20" width="120" height="24" rx="4" fill="#1e293b" stroke="#475569" stroke-width="1" />
+  <text x="250" y="36" font-family="monospace" font-size="11" fill="#cbd5e1">SMPTE ST 2067-2</text>
+  
+  <rect x="980" y="16" width="180" height="32" rx="6" fill="#10b981" />
+  <text x="1008" y="37" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" font-weight="700" fill="#ffffff">✓ 10/10 AUDIT PASS</text>
+
+  <!-- Main Content Grid -->
+  <!-- Left Panel: CPL Properties & Track Controls -->
+  <rect x="40" y="88" width="340" height="620" rx="10" fill="url(#cardGrad)" stroke="#334155" stroke-width="1" filter="url(#shadow)" />
+  <text x="60" y="122" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="16" font-weight="700" fill="#e2e8f0">Composition Properties</text>
+  <line x1="60" y1="136" x2="360" y2="136" stroke="#334155" stroke-width="1" />
+
+  <!-- Metadata Items -->
+  <text x="60" y="168" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" fill="#94a3b8">Content Title</text>
+  <rect x="60" y="178" width="300" height="36" rx="6" fill="#090d16" stroke="#475569" stroke-width="1" />
+  <text x="72" y="201" font-family="monospace" font-size="13" fill="#f1f5f9">WAR_AND_PEACE_EP01_OV_4K</text>
+
+  <text x="60" y="238" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" fill="#94a3b8">Edit Rate</text>
+  <rect x="60" y="248" width="140" height="36" rx="6" fill="#090d16" stroke="#475569" stroke-width="1" />
+  <text x="72" y="271" font-family="monospace" font-size="13" fill="#f1f5f9">24 1 (24.00 fps)</text>
+
+  <text x="220" y="238" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" fill="#94a3b8">Total Duration</text>
+  <rect x="220" y="248" width="140" height="36" rx="6" fill="#090d16" stroke="#475569" stroke-width="1" />
+  <text x="232" y="271" font-family="monospace" font-size="13" fill="#f1f5f9">72,000 frames</text>
+
+  <text x="60" y="308" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" fill="#94a3b8">Timecode Span</text>
+  <rect x="60" y="318" width="300" height="36" rx="6" fill="#090d16" stroke="#475569" stroke-width="1" />
+  <text x="72" y="341" font-family="monospace" font-size="13" fill="#eab308">00:00:00:00 ➔ 00:50:00:00</text>
+
+  <text x="60" y="380" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="15" font-weight="700" fill="#e2e8f0">Virtual Track Stack (4)</text>
+
+  <!-- Track Chips -->
+  <rect x="60" y="400" width="300" height="50" rx="6" fill="#1e293b" stroke="#3b82f6" stroke-width="1.5" />
+  <text x="74" y="423" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" font-weight="700" fill="#60a5fa">VIDEO (MainImageSequence)</text>
+  <text x="74" y="440" font-family="monospace" font-size="11" fill="#94a3b8">3840x2160 • JPEG 2000 4K Profile 5</text>
+
+  <rect x="60" y="460" width="300" height="50" rx="6" fill="#1e293b" stroke="#10b981" stroke-width="1" />
+  <text x="74" y="483" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" font-weight="700" fill="#34d399">AUDIO 1 (MainAudioSequence)</text>
+  <text x="74" y="500" font-family="monospace" font-size="11" fill="#94a3b8">English 5.1 (L, R, C, LFE, Ls, Rs) • 24-bit 48kHz</text>
+
+  <rect x="60" y="520" width="300" height="50" rx="6" fill="#1e293b" stroke="#10b981" stroke-width="1" />
+  <text x="74" y="543" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" font-weight="700" fill="#34d399">AUDIO 2 (Supplemental Audio)</text>
+  <text x="74" y="560" font-family="monospace" font-size="11" fill="#94a3b8">Arabic 2.0 Stereo (Stereo Left / Right)</text>
+
+  <rect x="60" y="580" width="300" height="50" rx="6" fill="#1e293b" stroke="#f59e0b" stroke-width="1" />
+  <text x="74" y="603" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" font-weight="700" fill="#fbbf24">SUBTITLE (SubSequence)</text>
+  <text x="74" y="620" font-family="monospace" font-size="11" fill="#94a3b8">SMPTE ST 2067-102 Timed Text (TTML)</text>
+
+  <!-- Right Panel: Studio Timeline & CPL XML Inspector -->
+  <rect x="400" y="88" width="760" height="620" rx="10" fill="url(#cardGrad)" stroke="#334155" stroke-width="1" filter="url(#shadow)" />
+  
+  <!-- Tabs -->
+  <rect x="416" y="104" width="140" height="34" rx="6" fill="#3b82f6" />
+  <text x="442" y="126" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" font-weight="700" fill="#ffffff">Timeline View</text>
+
+  <rect x="566" y="104" width="140" height="34" rx="6" fill="#1e293b" stroke="#475569" stroke-width="1" />
+  <text x="590" y="126" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" font-weight="600" fill="#94a3b8">CPL XML Editor</text>
+
+  <rect x="716" y="104" width="140" height="34" rx="6" fill="#1e293b" stroke="#475569" stroke-width="1" />
+  <text x="735" y="126" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" font-weight="600" fill="#94a3b8">PKL / ASSETMAP</text>
+
+  <rect x="866" y="104" width="140" height="34" rx="6" fill="#1e293b" stroke="#475569" stroke-width="1" />
+  <text x="888" y="126" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" font-weight="600" fill="#94a3b8">10-Point Audit</text>
+
+  <!-- Timeline Header / Timecode Ruler -->
+  <rect x="420" y="160" width="720" height="40" rx="6" fill="#090d16" stroke="#334155" stroke-width="1" />
+  <text x="436" y="184" font-family="monospace" font-size="12" fill="#64748b">00:00:00:00</text>
+  <text x="600" y="184" font-family="monospace" font-size="12" fill="#64748b">00:15:00:00</text>
+  <text x="760" y="184" font-family="monospace" font-size="12" fill="#64748b">00:30:00:00</text>
+  <text x="920" y="184" font-family="monospace" font-size="12" fill="#64748b">00:45:00:00</text>
+  <text x="1060" y="184" font-family="monospace" font-size="12" fill="#64748b">00:50:00:00</text>
+
+  <!-- Playhead Indicator Line -->
+  <line x1="680" y1="160" x2="680" y2="420" stroke="#ef4444" stroke-width="2" />
+  <polygon points="675,160 685,160 680,170" fill="#ef4444" />
+
+  <!-- Multi-track Timeline Visualizer -->
+  <!-- Video Track -->
+  <rect x="420" y="215" width="720" height="44" rx="4" fill="#090d16" stroke="#334155" stroke-width="1" />
+  <rect x="440" y="219" width="680" height="36" rx="4" fill="#1e3a8a" stroke="#3b82f6" stroke-width="1" />
+  <text x="456" y="242" font-family="monospace" font-size="12" font-weight="700" fill="#93c5fd">MAIN IMAGE RESOURCE: JPEG2000_UHD_4K.mxf (72,000 frames)</text>
+
+  <!-- Audio Track 1 -->
+  <rect x="420" y="267" width="720" height="44" rx="4" fill="#090d16" stroke="#334155" stroke-width="1" />
+  <rect x="440" y="271" width="680" height="36" rx="4" fill="#064e3b" stroke="#10b981" stroke-width="1" />
+  <text x="456" y="294" font-family="monospace" font-size="12" font-weight="700" fill="#6ee7b7">MAIN AUDIO RESOURCE 1: AUDIO_EN_51.mxf (72,000 frames)</text>
+
+  <!-- Audio Track 2 -->
+  <rect x="420" y="319" width="720" height="44" rx="4" fill="#090d16" stroke="#334155" stroke-width="1" />
+  <rect x="440" y="323" width="680" height="36" rx="4" fill="#064e3b" stroke="#10b981" stroke-width="1" />
+  <text x="456" y="346" font-family="monospace" font-size="12" font-weight="700" fill="#6ee7b7">SUPPLEMENTAL AUDIO 2: AUDIO_AR_20.mxf (72,000 frames)</text>
+
+  <!-- Subtitle Track -->
+  <rect x="420" y="371" width="720" height="44" rx="4" fill="#090d16" stroke="#334155" stroke-width="1" />
+  <rect x="440" y="375" width="680" height="36" rx="4" fill="#78350f" stroke="#f59e0b" stroke-width="1" />
+  <text x="456" y="398" font-family="monospace" font-size="12" font-weight="700" fill="#fde68a">TIMED TEXT RESOURCE: SUBTITLES_TTML.mxf (72,000 frames)</text>
+
+  <!-- Code / Audit Output Box below timeline -->
+  <rect x="420" y="435" width="720" height="255" rx="6" fill="#050811" stroke="#334155" stroke-width="1" />
+  <rect x="420" y="435" width="720" height="30" rx="6" fill="#0f172a" />
+  <text x="436" y="455" font-family="monospace" font-size="12" font-weight="700" fill="#94a3b8">SMPTE ST 2067-3 COMPOSITION PLAYLIST (CPL) SYNTHESIS &amp; AUDIT LOG</text>
+
+  <text x="436" y="486" font-family="monospace" font-size="11" fill="#10b981">✓ [AUDIT 01] Root XML namespace: http://www.smpte-ra.org/schemas/2067-3/2013 (VALID)</text>
+  <text x="436" y="506" font-family="monospace" font-size="11" fill="#10b981">✓ [AUDIT 02] UUID RFC 4122 compliance: urn:uuid:48b4e7fe-e95e-49b8-bc25-24c6014e7a2c (VALID)</text>
+  <text x="436" y="526" font-family="monospace" font-size="11" fill="#10b981">✓ [AUDIT 03] CompositionTimecode rate matches EditRate: 24 1 (VALID)</text>
+  <text x="436" y="546" font-family="monospace" font-size="11" fill="#10b981">✓ [AUDIT 04] Rational EditRate format validation: numerator &gt; 0, denominator &gt; 0 (VALID)</text>
+  <text x="436" y="566" font-family="monospace" font-size="11" fill="#10b981">✓ [AUDIT 05] Segment duration alignment: Video=72000, Audio1=72000, Audio2=72000, Sub=72000 (VALID)</text>
+  <text x="436" y="586" font-family="monospace" font-size="11" fill="#10b981">✓ [AUDIT 06] SourceDuration matches across all Virtual Tracks inside Segment-1 (VALID)</text>
+  <text x="436" y="606" font-family="monospace" font-size="11" fill="#10b981">✓ [AUDIT 07] Resource EntryPoints are non-negative integer bounds: 0 (VALID)</text>
+  <text x="436" y="626" font-family="monospace" font-size="11" fill="#10b981">✓ [AUDIT 08] EssenceDescriptorList references mapped: 4 valid descriptors found (VALID)</text>
+  <text x="436" y="646" font-family="monospace" font-size="11" fill="#10b981">✓ [AUDIT 09] Package Manifest: PKL.xml SHA-1 hashes and file sizes linked (VALID)</text>
+  <text x="436" y="666" font-family="monospace" font-size="11" fill="#10b981">✓ [AUDIT 10] Package Manifest: ASSETMAP.xml chunk URI resolution paths intact (VALID)</text>
+</svg>
